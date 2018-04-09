@@ -8,7 +8,7 @@ display_board(board)
 
   def turn(board)
   puts "Gib Input"
-  input = gets.stripe
+  input = gets.strip
   if valid_move?(board,input) == true
     move(board, input)
     display_board(board)
