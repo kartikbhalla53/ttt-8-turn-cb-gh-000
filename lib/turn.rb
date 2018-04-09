@@ -14,6 +14,7 @@ def position_taken?(board, index)
     elsif board[index] == " " || board[index] == "" || board[index] == nil
       return false
     end
+  end
 
     def display_board(board)
       puts " #{board[0]} | #{board[1]} | #{board[2]} "
