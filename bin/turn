@@ -15,7 +15,7 @@ display_board(board)
     flag = "true"
   else
     puts "invalid move"
-  flag ="false"
+  flag = "false"
   end
 end
 
